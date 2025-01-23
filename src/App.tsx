@@ -2,7 +2,8 @@
 //rafc+enter->componente react
 /* import { TiposBasicos } from "./typescript/TiposBasicos"; */
 
-import { Login } from "./components/Login"
+/* import { Login } from "./components/Login" */
+import { Usuarios } from "./components/Usuarios"
 
 /* import { ObjetosLiterales } from "./typescript/ObjetosLiterales" */
 /* import { Funciones } from './typescript/Funciones'; */
@@ -21,7 +22,8 @@ const App = () => {
      {/* < Contador/> */}
      {/* <ContadorCustomHook/> */}
     {/*  <ComponenteUseEfect/> */}
-    <Login/>
+    {/* <Login/> */}
+    <Usuarios/>
     </div>
   )
 }
